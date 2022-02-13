@@ -9,9 +9,9 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg text-white bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark text-white bg-dark">
         <div class="container-fluid">
-          <div><img src="img/HEFCO SERVICES logo.png" alt="" class="float-left img-fluid" height="40" width="32"></div>
+          <div><img src="img/HEFCO SERVICES logo.png" alt="" class=" img-fluid me-2" height="40" width="32"></div>
           <a class="navbar-brand text-white" href="#">Hefco Services</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,23 +28,25 @@
           </div>
         </div>
       </nav>
+      
 
       <!-- Main  -->
       <div class="container my-5">
         <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
           <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
             <!-- <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720"> -->
-            <img src="img/HEFCO SERVICES logo.png" class="d-block mx-lg-auto img-fluid" alt="Hefco Services" width="700" height="500" loading="lazy">
+            <img src="img/HEFCO SERVICES logo.png" class="d-block img-fluid" alt="Hefco Services"  loading="lazy">
         </div>
-          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-            <h1 class="display-4 fw-bold lh-1">Hefco Services</h1>
-            <p class="lead">Automotive services for all your needs:
-              <ul>
-                <li>Cars</li>
-                <li>Trucks</li>
-                <li>Tractors</li>
-                <li>Generators</li>
-                <li>Tires</li>
+          <div class="d-grid justify-content-center col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 justify-content-md-center">Hefco Services</h1>
+            <p class="lead fw-bold justify-content-md-center">Automotive services for all your needs:
+              <ul class="justify-content-md-center">
+                <li>AUTO MECHANIC REPAIR, OIL & LUBE</li>
+                <li>TRACTOR REPAIR, OIL & LUBE</li>
+                <li>HEAVY EQUIPMENT REPAIR, OIL & LUBE</li>
+                <li>WELDING REPIAR</li>
+                <li>ROCK DELIVERY</li>
+                <li>WRECKER SERVICE</li>
               </ul>
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3">
@@ -54,8 +56,9 @@
             </div>
           </div>
           <!-- Meet Us -->
+        <!-- <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center"> -->
           <div class="row justify-content-center ms-1">
-          <div class="card m-2" style="width: 18rem;">
+          <div id="meet" class="card m-2" style="width: 18rem;">
             <img src="img/Jed-Rae.jpg" class="card-img-top mt-2"  alt="Rae & Jed">
             <div class="card-body">
               <h5 class="card-title">Jed & Rae Hefner, Owners</h5>
@@ -72,36 +75,36 @@
             </div>
           </div>
         </div>
-
+      <!-- </div> -->
 
                 <!-- Location -->
-      <div class="px-4 py-5 my-5 text-center">
-        <iframe id="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.295167324729!2d-94.96756524893023!3d33.02235327864806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8635fdcd9c476935%3A0x7144726a2e92b340!2s2182%20US%20Hwy%20271%20N%2C%20Pittsburg%2C%20TX%2075686!5e0!3m2!1sen!2sus!4v1643605742503!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      <div id="location" class="px-2 py-2 my-2 text-center img-responsive">
+        <iframe class="img-responsive mx-auto"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.295167324729!2d-94.96756524893023!3d33.02235327864806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8635fdcd9c476935%3A0x7144726a2e92b340!2s2182%20US%20Hwy%20271%20N%2C%20Pittsburg%2C%20TX%2075686!5e0!3m2!1sen!2sus!4v1643605742503!5m2!1sen!2sus"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <h1 class="display-5 fw-bold">2182 US Hwy 271 N, Pittsburg, TX, 75686</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Just north of Pittsburg in a new, state of the art shop with everything to get your vehicle repaired on back on the road.</p>
         </div>
         
-      <div class="px-4 py-5 my-5 text-center">
+      <div class="px-2 py-2 my-2 text-center img-responsive">
 
-        <img src="img/pinkhat.jpg" alt="pinkhat" width="500" height="400">
+        <img class="img-fluid" src="img/pinkhat.jpg" alt="pinkhat" >
         
       </div>
 
 
       <!-- Contact us -->
-
-      <div class="container py-3 text-start" style="width: 60rem;">
+      <div class="container py-3 text-start col-lg-7 p-3 p-lg-5 pt-lg-3" >
         <h1 id="contact">Contact Us</h1>
         <p>All fields required</p>
-        <form class="row g-3" action="https://formsubmit.co/jed@hefcoservices.com" method="POST">
+        <form class="row g-3" action="https://formsubmit.co/30447d1469b5b85a7da32d69eceff54f" method="POST">
           <!-- Honeypot -->
           <input type="text" name="_honey" style="display: none;">
 
           <!-- Disable Captcha -->
           <input type="hidden" name="_captcha" value="false">
 
-          <input type="hidden" name="_next" value="success.html" >
+          <!-- <input type="hidden" name="_next" value="https://www.hefcoservices.com" > -->
 
           <div class="col-md-6">
             <label for="firstName" class="form-label">First Name</label>
@@ -124,7 +127,7 @@
             <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
           </div>
           <div class="col-md-12">
-            <button type="submit" class="btn btn-secondary">Submit</button>
+            <button type="submit" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#successModal">Submit</button>
           </div>
         </form>
     </div>
@@ -133,16 +136,33 @@
         </div>
       </div>
 
-      <!-- <div class="container col-xxl-8 px-2 py-3">
-        <div class="row flex-lg-row-reverse align-items-center g-3 py-3">
-          <div class="col-10 col-sm-8 col-lg-6">
-             <img src="/img/HEFCO SERVICES logo.png" class="d-block mx-lg-auto img-fluid" alt="Hefco Services" width="700" height="500" loading="lazy"> 
-          </div>
-          <div class="col-lg-6">
-  
+      <!-- Modal -->
+     
+      <div class="modal fade" id="successModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Successfully submitted" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Submitted</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="successmodal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Thank you for your inquiry.  Jed, Rae or a team member will be in touch.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
-      </div> -->
+      </div>
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="text-muted">© 2022 Hefco Services, LLC</span>
+        </div>
+       </footer>
 
       
 
